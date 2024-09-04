@@ -69,7 +69,7 @@ for (const point of points) {
   let isPointInStroke;
 
   try {
-    const pointObj = {x: point[0], y: point[1]};
+    const pointObj = { x: point[0], y: point[1] };
     isPointInStroke = circle.isPointInStroke(pointObj);
   } catch (e) {
     // Fallback for browsers that don't support DOMPointInit as an argument
